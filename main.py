@@ -49,6 +49,7 @@ automatoND = AFND(estados[readInicial], [estados[simb] for simb in readFinais], 
 automatoND.CriarTabela()
 
 automatoD = AFD(automatoND)
+automatoD.Parte2('input.txt')
 
 
 
